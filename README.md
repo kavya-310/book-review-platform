@@ -27,16 +27,16 @@ A full-stack MERN web app that allows users to register/login, add books, view a
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/book-review-platform.git
+git clone https://github.com/kavya-310/book-review-platform.git
 cd book-review-platform
 
 2. Backend Setup
- cd backend
+ cd server
 npm install
 npm run dev
 
 3. Frontend Setup
-cd ../frontend
+cd ../client
 npm install
 npm start
 Frontend will run on: http://localhost:3000
@@ -65,11 +65,13 @@ Kavya Boddu
 email: boddukavya49@gmail.com
 
 
-Notes:
-.Protected routes using JWT and middleware
-.Rating is strictly validated between 1 and 5
-.UI is kept simple for better usability
-.Book Deletion is only allowed for the user who added it
+## Notes
+
+- Protected routes using JWT and middleware  
+- Rating is strictly validated between 1 and 5  
+- UI is kept simple for better usability  
+- Book deletion is only allowed by the user who added it
+
 
 ## AI Usage Disclosure
 This project was built with significant assistance from AI tools (such as ChatGPT) for code structure, implementation guidance, and debugging. However, I took the time to understand how each part of the code works, made customizations, and ensured the application logic aligns with the requirements. The final product reflects both AI support and my learning process.
